@@ -1,89 +1,143 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Jonathan Personal Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Jonathan Personal Website</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"
+          ><img src="images/headshot.jpeg" alt=""
+        /></span>
+        <h1 id="logo">Jonathan Bakley</h1>
+        <p>Solving problems with Code</p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About</a></li>
+          <li><a href="#two">Projects</a></li>
+          <!-- <li><a href="#three">Skills</a></li> -->
+          <li><a href="#three">Contact</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/jonathanbakley"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jonathan-bakley-3870b0aa/"
+              class="icon brands fa-linkedin"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/headshot.jpeg" alt="" /></span>
-					<h1 id="logo">Jonathan Bakley</h1>
-					<p>Solving problems with Code</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Projects</a></li>
-						<!-- <li><a href="#three">Skills</a></li> -->
-						<li><a href="#three">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/jonathanbakley" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/jonathan-bakley-3870b0aa/" class="icon brands fa-linkedin"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center">
+            <img src="images/coding2.webp" alt="" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h3>Web Developer and Personal Trainer</h3>
+            </header>
+            <p>
+              I am a passionate Web Developer working primarily with javascript,
+              React.js, and GraphQL. I enjoy problem solving using math and
+              logic. Building things I can see visually has driven me to Web
+              Development because you can see what you build come to life.
+            </p>
+            <p>
+              If I'm not coding, then I am likely doing something fitness
+              related. I'm a NASM certified Personal Trainer and currently work
+              with clients online to reach their fitness goals.
+            </p>
+            <p>
+              Lastly, I serve as the Scrum Master on my agile team. The company
+              I work at uses the SAFe agile framework and I am a SAFe certified
+              Scrum Master.
+            </p>
+          </div>
+        </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Two -->
+        <section id="two">
+          <div class="container">
+            <h3>Projects</h3>
+            <div class="features">
+              <article>
+                <a
+                  href="https://bracket-generator-1.firebaseapp.com/"
+                  class="image"
+                  ><img src="images/bracketApp.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Bracket Generator</h4>
+                  <p>
+                    Web App written with React and Material-UI that creates a
+                    playoff type bracket.
+                    <a href="https://github.com/jonathanbakley/braket-app"
+                      >Project Github</a
+                    >
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://github.com/jonathanbakley/Advent_Of_Code"
+                  class="image"
+                  ><img src="images/adventOfCode2019.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Advent Of Code</h4>
+                  <p>
+                    Coding Challenge from December 1st to 25th. Problems are
+                    logic based and progressively get harder over time.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://timer-app-centers.firebaseapp.com/"
+                  class="image"
+                  ><img src="images/timerApp.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Timer App</h4>
+                  <p>
+                    React application made for a teacher to have a timer for
+                    students moving between centers doing activities at each.
+                    <a href="https://github.com/jonathanbakley/timer_app"
+                      >Project Github</a
+                    >
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/coding2.webp" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h3>Web Developer and Personal Trainer</h3>
-									</header>
-									<p>I am a passionate Web Developer working primarily with javascript, React.js, and GraphQL. I enjoy problem solving using math and logic. Building things I can see visually has driven me to Web Development because you can see what you build come to life.</p>
-									<p>If I'm not coding, then I am likely doing something fitness related. I'm a NASM certified Personal Trainer and currently work with clients online to reach their fitness goals.</p>
-									<p>Lastly, I serve as the Scrum Master on my agile team. The company I work at uses the SAFe agile framework and I am a SAFe certified Scrum Master.</p>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Projects</h3>
-									<div class="features">
-										<article>
-											<a href="https://bracket-generator-1.firebaseapp.com/" class="image"><img src="images/bracketApp.png" alt="" /></a>
-											<div class="inner">
-												<h4>Bracket Generator</h4>
-												<p>Web App written with React and Material-UI that creates a playoff type bracket. Code: <a href="https://github.com/jonathanbakley/braket-app" >https://github.com/jonathanbakley/braket-app</a></p>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/jonathanbakley/Advent_Of_Code" class="image"><img src="images/adventOfCode2019.png" alt="" /></a>
-											<div class="inner">
-												<h4>Advent Of Code</h4>
-												<p>Coding Challenge from December 1st to 25th. Problems are logic based and progressively get harder over time.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://timer-app-centers.firebaseapp.com/" class="image"><img src="images/timerApp.png" alt="" /></a>
-											<div class="inner">
-												<h4>Timer App</h4>
-												<p>React application made for a teacher to have a timer for students moving between centers doing activities at each.<a href="https://github.com/jonathanbakley/timer_app" >https://github.com/jonathanbakley/timer_app</a></p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<!-- <section id="three">
+        <!-- Three -->
+        <!-- <section id="three">
 								<div class="container">
 									<h3>Skills</h3>
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
@@ -98,37 +152,33 @@
 								</div>
 							</section> -->
 
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>Contact Me</h3>
+            <div>
+              <p>
+                Email: <i>jonathanbakley@gmail.com</i><br />
+                Phone: <i>919 - 564 - 6820</i>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
 
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container"></div>
+      </section>
+    </div>
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<div>
-										<p>Email: <i>jonathanbakley@gmail.com</i><br>
-									    Phone: <i>919 - 564 - 6820</i></p>
-									</div>
-								</div>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
